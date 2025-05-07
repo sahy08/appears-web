@@ -1,59 +1,53 @@
-# appears-web
+# Appears Web
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.10.
+A modern web application built with Angular that provides [brief description of what the application does].
 
-## Development server
+## Technologies Used
 
-To start a local development server, run:
+- **Angular**: Frontend framework using TypeScript for building the single-page application
+- **SCSS**: Advanced CSS preprocessor for styling the application
+- **Firebase**: Backend as a service platform for:
+  - Hosting
+- **Node.js**: JavaScript runtime environment
+- **GitHub Actions**: CI/CD pipelines for automated testing and deployment
 
-```bash
-ng serve
+## Project Structure
+
+The project follows standard Angular application structure:
+
+```
+src/
+  app/             # Application components, services, and modules
+  environments/    # Environment-specific configurations
+  assets/          # Static assets like images and icons
+  styles/          # Global styling files
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### Prerequisites
 
-## Code scaffolding
+- Node.js (>= 14.x)
+- npm (>= 6.x)
+- Angular CLI
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Setup
 
 ```bash
-ng generate --help
+# Install dependencies
+npm install
+
+# Run development server
+npm start
 ```
 
-## Building
+Visit `http://localhost:4200/` to see the application running.
 
-To build the project run:
+## Deployment
 
-```bash
-ng build
-```
+The application is automatically deployed to Firebase Hosting using GitHub Actions when code is merged to the main branch.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## CI/CD
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+GitHub Actions workflows are configured to:
+1. Test the application
+2. Build the production bundle
+3. Deploy to Firebase hosting
