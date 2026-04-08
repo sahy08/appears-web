@@ -100,7 +100,7 @@ export const translations: Record<Lang, CVTranslation> = {
         bullets: [
           `Desarrollo y mantenimiento de APIs REST y servicios backend en <strong>.NET/C#</strong> para el programa <strong>Pyme Digital</strong>, optimizando flujos para más de 500 empresas aseguradas.`,
           `Implementación de automatizaciones RPA con <strong>Python y Power Automate</strong>, reduciendo tiempos de procesamiento manual en operaciones de cobranza y suscripción.`,
-          `Colaboración en equipos ágiles <strong>(Scrum)</strong> para definir requerimientos y entregar incrementos funcionales en sprints quincenales.`,
+          `Colaboración en equipos ágiles <strong>(Scrum)</strong> para definir requerimientos y entregar incrementos funcionales en sprints de tres semanas.`,
           `Configuración y gestión de entornos de despliegue en <strong>Azure</strong> y contenedores <strong>Docker</strong>.`,
         ]
       },
@@ -221,7 +221,7 @@ export const translations: Record<Lang, CVTranslation> = {
         bullets: [
           `Development and maintenance of REST APIs and backend services in <strong>.NET/C#</strong> for the <strong>Pyme Digital</strong> program, optimizing workflows for over 500 insured companies.`,
           `Implementation of RPA automations with <strong>Python and Power Automate</strong>, reducing manual processing times in billing and underwriting operations.`,
-          `Collaboration in agile teams <strong>(Scrum)</strong> to define requirements and deliver functional increments in two-week sprints.`,
+          `Collaboration in agile teams <strong>(Scrum)</strong> to define requirements and deliver functional increments in three-week sprints.`,
           `Configuration and management of deployment environments on <strong>Azure</strong> and <strong>Docker</strong> containers.`,
         ]
       },
