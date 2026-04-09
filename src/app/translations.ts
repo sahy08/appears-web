@@ -40,6 +40,7 @@ export interface CVTranslation {
   themeLight: string;
   themeDark: string;
   heroTitle: string;
+  heroView: string;
   heroDownload: string;
   contactLocation: string;
   summaryTitle: string;
@@ -68,7 +69,8 @@ export const translations: Record<Lang, CVTranslation> = {
     themeLight: 'Modo claro',
     themeDark: 'Modo oscuro',
     heroTitle: 'Ingeniero de Software · Desarrollador Backend &amp; AI · Automatización',
-    heroDownload: '⬇ Descargar CV PDF',
+    heroView: '↗ Ver CV',
+    heroDownload: '⬇ Descargar',
     contactLocation: 'Ñuñoa, Santiago, Chile',
     summaryTitle: 'Resumen Profesional',
     summaryText: `Ingeniero Informático <strong>egresado con Máximo Honor</strong> con más de 4 años de experiencia en desarrollo backend,
@@ -189,7 +191,8 @@ export const translations: Record<Lang, CVTranslation> = {
     themeLight: 'Light mode',
     themeDark: 'Dark mode',
     heroTitle: 'Software Engineer · Backend &amp; AI Developer · Automation',
-    heroDownload: '⬇ Download CV PDF',
+    heroView: '↗ View CV',
+    heroDownload: '⬇ Download',
     contactLocation: 'Ñuñoa, Santiago, Chile',
     summaryTitle: 'Professional Summary',
     summaryText: `Computer Engineer <strong>graduated with Highest Honors</strong> with over 4 years of experience in backend development,
