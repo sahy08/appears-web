@@ -19,5 +19,4 @@ export class AppComponent {
 
   toggleTheme() { this.isLight = !this.isLight; }
   toggleLang()  { this.lang = this.lang === 'es' ? 'en' : 'es'; }
-  printCV()     { globalThis.print(); }
 }

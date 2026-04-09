@@ -539,47 +539,6 @@ footer {
   background: var(--bg-primary);
 }
 
-// ── PRINT ──────────────────────────────────────────────────
-@media print {
-  :host {
-    --bg-primary:    #ffffff;
-    --bg-secondary:  #ffffff;
-    --bg-card:       #ffffff;
-    --blue:          #1d4ed8;
-    --green:         #059669;
-    --text-primary:  #0f172a;
-    --text-secondary:#334155;
-    --text-muted:    #64748b;
-    --border:        #e2e8f0;
-    --shadow:        none;
-    font-size: 11pt;
-  }
-
-  .top-controls,
-  .hero-actions { display: none !important; }
-
-  section { padding: 1rem 0; }
-
-  #hero {
-    padding: 1rem 1.5rem;
-    border-bottom: 2px solid var(--blue);
-  }
-
-  .job-card,
-  .project-card,
-  .skill-group,
-  .edu-card,
-  .language-item { box-shadow: none; break-inside: avoid; }
-
-  .timeline::before { display: none; }
-  .timeline { padding-left: 0; }
-  .timeline-dot { display: none; }
-
-  #contact { display: none; }
-
-  footer { display: none; }
-}
-
 // ── RESPONSIVE ─────────────────────────────────────────────
 @media (max-width: 640px) {
   section { padding: 2.5rem 0; }
