@@ -181,7 +181,7 @@ export const translations: Record<Lang, CVTranslation> = {
       { name: 'Inglés', level: 'B2 — Cambridge English Placement Test', cls: 'b2' },
     ],
     contactTitle: 'Contacto',
-    footer: 'Sergio Hernández · Santiago, Chile · 2025',
+    footer: 'Sergio Hernández · Santiago, Chile · 2026',
   },
 
   en: {
@@ -302,6 +302,6 @@ export const translations: Record<Lang, CVTranslation> = {
       { name: 'English', level: 'B2 — Cambridge English Placement Test', cls: 'b2' },
     ],
     contactTitle: 'Contact',
-    footer: 'Sergio Hernández · Santiago, Chile · 2025',
+    footer: 'Sergio Hernández · Santiago, Chile · 2026',
   }
 };
